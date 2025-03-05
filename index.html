@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+          - primary meta tags
+        -->
+  <title>ABD</title>
+  <meta name="title" content="ABD">
+  <meta name="description" content="This is a Restaurant html template">
+
+  <!--
+          - favicon
+        -->
+  <link rel="shortcut icon" href="images/logo.png" type="image/svg+xml">
+
+  <!--
+          Custom fonts
+        -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!--
+          - custom CSS
+        -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--
+          - preload images
+        -->
+  <link rel="preload" as="image" href="images/samosa.jpg">
+  <link rel="preload" as="image" href="images/puri.jpg">
+  <link rel="preload" as="image" href="images/dosa.jpg">
+
+
+</head>
+
+<body>
+
+
+  <!-- Ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+  <!-- Preloader -->
+  <div class="preload" data-preload>
+    <div class="circle"></div>
+    <p class="text">ABD</p>
+  </div>
+
+
+  <!-- TOPBAR -->
+
+  <div class="topbar">
+    <div class="container">
+      <a href="https://www.google.com/maps/place/Old+Market+Rd,+Basavanagudi,+Bengaluru,+Karnataka+560004/@12.9506503,77.5783438,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae15eec8d2cb9b:0x5f258d568240601a!8m2!3d12.9506503!4d77.5783438!16s%2Fg%2F1v299g86?entry=ttu"
+        class="topbar-item link">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Old Market Road, Basavanagudi, Bengaluru, India
+          </span>
+        </address>
+      </a>
+
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+917077051566" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 70770 51566</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:blue.green.6900@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">blue.green.6900@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+  <!-- #HEADER -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/logo.png" width="160" height="50" alt="Abhi Bhai Dokan - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="images/logo.png" width="160" height="50" alt="Abhi Bhai Dokan - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Old Market Road, Basavanagudi, <br>
+            Bengaluru, India
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:blue.green.6900@gmail.com" class="body-4 sidebar-link">blue.green.6900@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+917077051566" class="body-1 contact-number hover-underline">
+            +91 70770 51566
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!-- HERO --> 
+
+      <section class="hero text-center" aria-label="home" id="home">
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg img-grad">
+              <img src="images/samosa.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Traditional Indian Snacks</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Odia Kitchen: <br>
+              Where Tradition Meets Taste
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & experience the Essence of Odisha's Culinary Heritage
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg img-grad">
+              <img src="images/puri.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">A Delightful Experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Taste the Authentic <br>
+              Odia Delights
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & experience the Essence of Odisha's Culinary Heritage
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg img-grad">
+              <img src="images/dosa.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Affordable & Delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where Home-cooked Goodness meets <br>
+              Simplicity & Taste
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & experience the Essence of Odisha's Culinary Heritage
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn-prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="caret-back-outline"></ion-icon>
+        </button>
+
+        <button class="slider-btn-next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="caret-forward-outline"></ion-icon>
+        </button>
+
+      </section>
+
+
+      <!-- SERVICE -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <div class="menu-headline">
+
+            <a href="#">
+              <h2 class="headline-1 section-title">Menu</h2>
+            </a>
+
+            <ul class="menu-box">
+              <li>
+                <img src="images/spoon.svg" class="change-color spoon">
+              </li>
+              <li>
+                <img src="images/fork.svg" class="change-color fork">
+              </li>
+            </ul>
+          </div>
+
+          <div class="section-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nisi neque, condimentum at sollicitudin id, malesuada eu sem. Sed id mi eu tortor auctor gravida. Fusce dignissim purus id tellus sollicitudin, id sodales justo ultricies. Donec diam risus, aliquet sed ornare id, cursus sed nunc. Etiam vel sapien sed justo sollicitudin elementum.
+            </p>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card box">
+
+                <a href="#" class="has-before hover:shine imgBx">
+                  <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                    <img src="images/breakfast & snacks.jpg" width="285" height="336" loading="lazy" alt="Breakfast and Snacks" class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Snacks</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card box">
+
+                <a href="#" class="has-before hover::shine imgBx">
+                  <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                    <img src="images/lunch & dinner.jpg" width="285" height="336" loading="lazy" alt="Lunch and Dinner" class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Lunch & Dinner</a>
+                  </h3>
+
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card box">
+
+                <a href="#" class="has-before hover::shine imgBx">
+                  <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                    <img src="images/drinks.jpg" width="285" height="336" loading="lazy" alt="Drinks" class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Drinks</a>
+                  </h3>
+
+                
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+          <img src="images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim img-grad">
+          <img src="images/shape-1.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim img-grad">
+
+
+
+        </div>
+      </section>
+
+
+      <!-- ABOUT -->
+
+      <section class="section about-section text-center" aria-labelledby="about-label" id="about">
+        
+        <div class="container about-flex-container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">Every Flavor Tells a Story</h2>
+
+            
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus ligula interdum velit viverra, id dignissim mauris semper. Phasellus sodales augue quis lectus scelerisque fringilla. Quisque varius tortor ut lacus consequat, vitae vehicula elit finibus. Nunc dictum velit sit amet volutpat imperdiet. Proin placerat leo vel arcu hendrerit facilisis. Donec dignissim id magna non ornare. Donec ac augue laoreet justo porttitor semper. Aliquam erat volutpat. Cras a augue nibh. Duis sodales magna elementum urna gravida tincidunt. Donec leo ante, mollis sit amet vehicula ac, rhoncus vel elit.
+            </p>
+
+            <div class="about-container">
+              <div class="contact-label">Book Through Call</div>
+  
+              <a href="tel: +91 70770 51544" class="body-1 contact-number hover-underline">+91 70770 51544</a>
+  
+              <div class="about-btn-container">
+                <a href="#" class="btn btn-primary about-btn">
+                  <span class="text text-1">Read More</span>
+    
+                  <span class="text text-2" aria-hidden="true">Read More</span>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="images/chef.jpg" width="570" height="570" loading="lazy" alt="about banner" class="w-100 chef-img" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="images/restaurant-jap.jpg" width="285" height="285" loading="lazy" alt="" class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+            <img src="" width="197" height="194" loading="lazy" alt="" class="shape">
+
+
+          </figure>
+        </div>
+
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
